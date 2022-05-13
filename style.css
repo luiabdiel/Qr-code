@@ -21,6 +21,7 @@ body {
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -35,10 +36,12 @@ body {
 .card {
   background-color: var(--White);
 
-  padding: 15px;
-  border-radius: 15px;
+  padding: 17px;
+  border-radius: 20px;
 
   margin: 0 16px;
+
+  box-shadow: 0px 20px 20px hsl(0, 0%, 0%, 0.1);
 }
 
 .card img {
@@ -69,4 +72,14 @@ body {
   font-size: 16px;
 
   padding-bottom: 25px;
+}
+
+.attribution {
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: blueviolet;
 }
