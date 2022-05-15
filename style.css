@@ -76,9 +76,10 @@ body {
 
 .attribution {
   margin-top: 3rem;
+  font-size: 1rem;
 }
 
 .attribution a {
   text-decoration: none;
-  color: blueviolet;
+  color: hsl(271, 76%, 53%);
 }
